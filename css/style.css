@@ -10,20 +10,14 @@
 header {
     background-color: antiquewhite;
     padding: 10px;
-    /* display: flex;
-    justify-content: space-between; */
 }
 
 nav {
     display: flex;
     width: 960px;
     margin: auto;
-    border: 2px solid black;
 }
 
-nav a img {
-    border: green 2px solid;
-}
 
 nav a {
     color: black;
@@ -33,13 +27,11 @@ nav ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 2px solid red;
     width: calc(100% - 200px );
 }
 
 
 main {
-    background-color: rgb(189, 229, 229);
     width: 960px;
     margin: 30px auto;
     display: flex;
